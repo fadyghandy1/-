@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    font-size: small;
+}
+
+small{
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 8px;
+}
+
+li:hover{
+
+color: white;
+
+background-color:#EEE;
+}

@@ -1,0 +1,7 @@
+
+<ul class="list-group  d-flex ">
+    <li class="list-group-item"><p class="text-info text-center">الأكثر قراءة</p></li>
+    <li class="list-group-item" *ngFor="let item of moreNews;let i=index">
+    <span>{{i+1}}- </span><a routerLink="/news/details/{{item.ID}}" routerLinkActive="router-link-active" >{{item.Title}}</a>
+    </li>
+  </ul>
